@@ -1,0 +1,19 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+@theme "gruvbox-dark.rasi"
+ 
+/* Insert theme modifications after this */
+
+element {
+  orientation: horizontal;
+  children: [ element-text, element-icon ];
+  spacing: 5px;
+}
+
+element-icon {
+    size: 2.5em;
+}
+
